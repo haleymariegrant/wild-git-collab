@@ -45,7 +45,6 @@ five <- 2 + 3
 ggplot(data = diamonds, aes(x = depth, y = carat)) +
   geom_point() +
   theme_dark()
-
 ```
 
 ```{r break-it-2}
