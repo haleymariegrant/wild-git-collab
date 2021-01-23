@@ -48,10 +48,9 @@ ggplot(data = diamonds, aes(x = depth, y = carat)) +
 ```
 
 ```{r break-it-2}
-ggplot(data = diamonds, aes(x = depth, y = carat)) +
-  geom_col() +
-  facet_grid() +
-  theme_get()
+ggplot(data = starwars, aes(x = mass, y = height)) +
+  geom_point(aes(color = species), show.legend = FALSE) +
+  labs(title = "Star Wars characters")
 ```
 
 ## END Discussion 3
